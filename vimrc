@@ -29,6 +29,9 @@ let python_highlight_all = 1
 " Closing symbols
 inoremap { {}<Left>
 inoremap ( ()<Left>
+inoremap [ []<Left>
+inoremap " ""<Left>
+inoremap ' ''<Left>
 
 " -------------for vim-latex
 " REQUIRED. This makes vim invoke Latex-Suite when you open a tex file.
