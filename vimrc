@@ -33,6 +33,10 @@ inoremap [ []<Left>
 inoremap " ""<Left>
 inoremap ' ''<Left>
 
+" Folding
+set foldenable
+set foldmethod=indent
+
 " -------------for vim-latex
 " REQUIRED. This makes vim invoke Latex-Suite when you open a tex file.
 filetype plugin on
