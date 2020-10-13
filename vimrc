@@ -22,20 +22,18 @@ autocmd BufEnter *.tex set spelllang=es,en
 
 " highlight searches:
 set hlsearch
+set incsearch
 
 " enable all Python syntax highlighting features
 let python_highlight_all = 1
 
-" Closing symbols
-inoremap { {}<Left>
-inoremap ( ()<Left>
-inoremap [ []<Left>
-inoremap " ""<Left>
-inoremap ' ''<Left>
-
 " Folding
 set foldenable
 set foldmethod=manual
+
+" Status line
+set laststatus=2
+set statusline=%F%m%r%h%w%=(%{&ff}/%Y)\ (line\ %l\/%L,\ col\ %c,\ per\ %p)
 
 " -------------for vim-latex
 " REQUIRED. This makes vim invoke Latex-Suite when you open a tex file.
