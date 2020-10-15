@@ -13,6 +13,9 @@ set shiftwidth=4
 " show a visual line under the cursor's current line
 set cursorline
 
+" show line number
+set number
+
 " show the matching part of the pair for [] {} and ()
 set showmatch
 
@@ -32,6 +35,7 @@ set foldenable
 set foldmethod=manual
 
 " Status line
+set wildmenu
 set laststatus=2
 set statusline=%F%m%r%h%w%=(%{&ff}/%Y)\ (line\ %l\/%L,\ col\ %c,\ per\ %p)
 
